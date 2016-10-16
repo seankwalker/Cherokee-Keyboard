@@ -1,0 +1,70 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row android:keyWidth="11%p">
+        <!-- android:keyOutputText is bugged so I can't write ᎣᏏᏲ or ᏣᎳᎩ or ᏩᏙ :(
+        <Key android:codes="5091, 5043, 5033" android:keyLabel="ᏣᎳᎩ" />
+        <Key android:codes="5027, 5071, 5106" android:keyLabel="ᎣᏏᏲ"/>
+        <Key android:codes="5097, 5081" android:keyLabel="ᏩᏙ"/> -->
+        <Key android:codes="5081" android:keyLabel="Ꮩ"/>
+        <Key android:codes="5094" android:keyLabel="Ꮶ"/>
+        <Key android:codes="5084" android:keyLabel="Ꮬ"/>
+        <Key android:codes="5067" android:keyLabel="Ꮛ"/>
+        <Key android:codes="5078" android:keyLabel="Ꮦ"/>
+        <Key android:codes="5074" android:keyLabel="Ꮢ"/>
+        <Key android:codes="5060" android:keyLabel="Ꮔ"/>
+        <Key android:codes="5055" android:keyLabel="Ꮏ"/>
+        <Key android:codes="5107" android:keyLabel="Ᏻ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:keyWidth="7.5%p">
+        <Key android:codes="5034" android:keyLabel="Ꭺ" android:keyEdgeFlags="left"/>
+        <Key android:codes="5043" android:keyLabel="Ꮃ"/>
+        <Key android:codes="5025" android:keyLabel="Ꭱ"/>
+        <Key android:codes="5075" android:keyLabel="Ꮫ"/>
+        <Key android:codes="5076" android:keyLabel="Ꮤ"/>
+        <Key android:codes="5119" android:keyLabel="Ꮿ"/>
+        <Key android:codes="5028" android:keyLabel="Ꭴ"/>
+        <Key android:codes="5026" android:keyLabel="Ꭲ"/>
+        <Key android:codes="5027" android:keyLabel="Ꭳ"/>
+        <Key android:codes="5057" android:keyLabel="Ꮑ"/>
+        <Key android:codes="5077" android:keyLabel="Ꮥ"/>
+        <Key android:codes="5046" android:keyLabel="Ꮆ"/>
+        <Key android:codes="5097" android:keyLabel="Ꮹ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:keyWidth="10%p">
+        <Key android:codes="5024" android:keyLabel="Ꭰ" android:keyEdgeFlags="left"/>
+        <Key android:codes="5069" android:keyLabel="Ꮝ"/>
+        <Key android:codes="5079" android:keyLabel="Ꮧ"/>
+        <Key android:codes="5033" android:keyLabel="Ꭹ"/>
+        <Key android:codes="5030" android:keyLabel="Ꭶ"/>
+        <Key android:codes="5039" android:keyLabel="Ꭿ"/>
+        <Key android:codes="5082" android:keyLabel="Ꮪ"/>
+        <Key android:codes="5048" android:keyLabel="Ꮈ"/>
+        <Key android:codes="5045" android:keyLabel="Ꮅ"/>
+        <Key android:codes="5096" android:keyLabel="Ꮸ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:keyWidth="10%p">
+        <Key android:codes="-1" android:keyLabel="@string/shift"
+            android:keyEdgeFlags="left" android:isModifier="true"
+            android:isSticky="true"/>
+        <Key android:codes="5036" android:keyLabel="Ꭼ"/>
+        <Key android:codes="5108" android:keyLabel="Ᏼ"/>
+        <Key android:codes="5075" android:keyLabel="Ꮣ"/>
+        <Key android:codes="5029" android:keyLabel="Ꭵ"/>
+        <Key android:codes="5032" android:keyLabel="Ꭸ"/>
+        <Key android:codes="5054" android:keyLabel="Ꮎ"/>
+        <Key android:codes="5061" android:keyLabel="Ꮕ"/>
+        <Key android:codes="5058" android:keyLabel="Ꮒ"/>
+        <Key android:codes="-5" android:keyLabel="Delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="46" android:keyLabel="." android:keyWidth="10%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
+        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyLabel="@string/space" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="@string/rtrn" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cherokee Keyboard</string>
+    <string name="ime_name">Cherokee Keyboard</string>
+    <string name="subtype_chr">Cherokee (CHR)</string>
+    <string name="space">Space</string>
+    <string name="rtrn">Return</string>
+    <string name="shift">More</string>
+</resources>
